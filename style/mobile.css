@@ -20,7 +20,7 @@
 /* banner section */
 
 .banner-section {
-  height: 100vh;
+  height: 50vh;
 }
 
 .banner-heading {
@@ -30,7 +30,7 @@
 
 /* about us  */
 #about-us {
-  height: 100vh;
+  height: 50vh;
 }
 .about-content {
   justify-content: center;
@@ -47,4 +47,15 @@
 
 .about-content-heading {
   font-size: 5vw;
+}
+
+/* services  */
+.service-container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.service {
+  width: 80%;
+  margin-bottom: 10px;
 }
