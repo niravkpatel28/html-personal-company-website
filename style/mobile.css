@@ -42,20 +42,27 @@
 
 .about-text {
   padding: 0px;
-  width: 90%;
+  width: 100%;
 }
 
-.about-content-heading {
+.about-text h1 {
   font-size: 5vw;
+}
+.about-text p {
+  font-size: 3vw;
 }
 
 /* services  */
+#services > h1 {
+  font-size: 5vw;
+}
+
 .service-container {
   flex-direction: column;
   align-items: center;
 }
 
 .service {
-  width: 80%;
+  width: 90%;
   margin-bottom: 10px;
 }

@@ -13,7 +13,7 @@
 
 #services > h1 {
   text-align: center;
-  /* font-size: 3rem; */
+  padding-top: 2vw;
   font-size: 5vw;
 }
 .service i {
@@ -21,18 +21,29 @@
   padding: 5%;
   border-radius: 50%;
 }
-.service-subtext {
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
+/* .service-subtext { */
+/* padding-top: 2vh;
+  padding-bottom: 2vh; */
+/* option1  */
+/* font-size: 1.2rem; */
+/* font-size: 2vw;
+  font-weight: bold; */
+/* } */
 
 .service h1 {
-  padding-top: 2vh;
-  font-size: 2rem;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  /* option 1 */
+  /* font-size: 2rem; */
+  font-size: 2vw;
 }
 
-.service p:last-of-type {
+.service p {
+  font-size: 1.2vw;
   text-align: justify;
 }
+
+/* .service p:last-of-type {
+  font-size: 1vw;
+  text-align: justify;
+} */

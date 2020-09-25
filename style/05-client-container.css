@@ -12,12 +12,14 @@
   width: 10%;
 }
 .client-container div img {
-  width: 60%;
+  width: 80%;
   height: auto;
 }
 
 #clients > h1 {
-  font-size: 3rem;
+  font-size: 5vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
   text-align: center;
   font-weight: bold;
 }
