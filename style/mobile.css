@@ -66,3 +66,15 @@
   width: 90%;
   margin-bottom: 10px;
 }
+
+.service h1 {
+  font-size: 5vh;
+}
+.service p {
+  font-size: 3vh;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+/*  */
