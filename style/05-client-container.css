@@ -5,7 +5,11 @@
 .client-container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  /* border: 1px solid red; */
 }
 .client-container div {
   padding-top: 10px;
@@ -14,6 +18,7 @@
 .client-container div img {
   width: 80%;
   height: auto;
+  /* border: 1px solid black; */
 }
 
 #clients > h1 {

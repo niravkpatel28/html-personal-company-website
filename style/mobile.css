@@ -68,13 +68,25 @@
 }
 
 .service h1 {
-  font-size: 5vh;
+  font-size: 5vw;
 }
 .service p {
-  font-size: 3vh;
+  font-size: 3vw;
   width: 80%;
   margin: auto;
   text-align: center;
 }
 
-/*  */
+/* Clients */
+
+.client-container {
+  width: 90%;
+}
+.client-container div {
+  padding-top: 10px;
+  width: 20%;
+}
+
+.client-container div img {
+  width: 50%;
+}
