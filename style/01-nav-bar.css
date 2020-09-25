@@ -13,7 +13,11 @@ body {
   top: 0px;
   background-color: #262626;
   color: #feda6a;
-  height: 10vh;
+  /* option for having fixed navigation height
+  this can be used when logo is fixed in size 
+   */
+  /* height: 10vh; */
+  height: auto;
   width: 100%;
 }
 
@@ -27,7 +31,6 @@ body {
 /* .nav-items {
   display: inline;
 } */
-
 .logo {
   padding: 10px;
   font-size: 1.5rem;
@@ -36,13 +39,10 @@ body {
   margin-left: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
-  /* margin: 10px; */
-  /* box-shadow: -10px -2px #feda6a40; */
 }
 
 .nav-content {
   display: flex;
-  /* flex-wrap: wrap; */
   align-items: center;
   list-style: none;
   height: 100%;
