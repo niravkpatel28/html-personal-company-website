@@ -1,0 +1,50 @@
+.header-section {
+  position: static;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navigation {
+  flex-direction: column;
+  position: static;
+}
+.nav-content {
+  flex-direction: column;
+}
+
+.nav-links {
+  padding-top: 10px;
+  width: 100%;
+}
+
+/* banner section */
+
+.banner-section {
+  height: 100vh;
+}
+
+.banner-heading {
+  font-size: 5vw;
+  padding: 0px;
+}
+
+/* about us  */
+#about-us {
+  height: 100vh;
+}
+.about-content {
+  justify-content: center;
+  align-items: center;
+}
+.about-image {
+  display: none;
+}
+
+.about-text {
+  padding: 0px;
+  width: 90%;
+}
+
+.about-content-heading {
+  font-size: 5vw;
+}

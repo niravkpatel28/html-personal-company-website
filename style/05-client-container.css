@@ -1,0 +1,23 @@
+#clients {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.client-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.client-container div {
+  padding-top: 10px;
+  width: 10%;
+}
+.client-container div img {
+  width: 60%;
+  height: auto;
+}
+
+#clients > h1 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+}

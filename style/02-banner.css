@@ -1,0 +1,48 @@
+.banner-section {
+  height: 90vh;
+  width: 100%;
+  background-image: linear-gradient(to right, #393f4d80, #feda6a80),
+    url("../images/company1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.banner-heading {
+  /* option1 */
+  /* font-size: 4rem; */
+  /* option 2 */
+  font-size: 5vw;
+  padding: 1rem;
+}
+
+.banner-subtext {
+  /* option 1 */
+  /* font-size: 1.6rem; */
+  /* option 2 */
+  font-size: 3vw;
+}
+.banner-cta {
+  display: inline-block;
+  color: #feda6a;
+  margin-top: 1.6rem;
+  padding-top: 1rem;
+  background-color: #262626;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  width: 100px;
+}
+.banner-cta:hover {
+  font-weight: bold;
+  background-color: #1d1e22;
+}
