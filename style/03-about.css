@@ -25,18 +25,34 @@
 .about-text {
   width: 50%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #262626;
   text-align: center;
+  border: 2px solid red;
 }
 
-.about-content h1 {
-  padding-top: 15vh;
+.about-text h1 {
+  color: #feda6a;
+  font-size: 3vw;
+  padding: 1vw;
+}
+
+.about-text p {
+  color: #d4d4dc;
+  padding: 0 2vw;
+  font-size: 1.5vw;
+}
+/* .about-content h1 {
+  padding-top: 5vh;
   color: #feda6a;
   font-size: 3rem;
-}
+} */
 
-.about-content p {
+/* .about-content p {
   padding: 10px;
   color: #d4d4dc;
   font-size: 1.2rem;
-}
+} */
