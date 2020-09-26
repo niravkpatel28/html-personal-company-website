@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-section {
+  position: sticky;
+  top: 0px;
+  background-color: #262626;
+  color: #feda6a;
+  /* option for having fixed navigation height
+  this can be used when logo is fixed in size 
+   */
+  /* height: 10vh; */
+  height: auto;
+  width: 100%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+/* .nav-items {
+  display: inline;
+} */
+.logo {
+  padding: 10px;
+  font-size: 1.5rem;
+  border: 3px solid #d4d4dc;
+  border-radius: 40%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #feda6a;
+}
+.nav-content {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+}
+
+.nav-links {
+  padding: 10px;
+  text-decoration: none;
+  color: #d4d4dc;
+}
+
+.nav-links:hover {
+  background-color: #1d1e22;
+  color: #feda6a;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+
+/*# sourceMappingURL=/01-nav-bar.b19551cb.css.map */

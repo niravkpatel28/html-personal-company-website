@@ -1,0 +1,1 @@
+{"version":3,"sources":["00-style.css"],"names":[],"mappings":"AAAA,EACE,qBAAsB,CACtB,QAAW,CACX,SACF,CAEA,KACE,sBACF,CACA,KACE,iCACF","file":"00-style.4decee42.css","sourceRoot":"..","sourcesContent":["* {\n  box-sizing: border-box;\n  margin: 0px;\n  padding: 0px;\n}\n\nhtml {\n  scroll-behavior: smooth;\n}\nbody {\n  font-family: \"Montserrat\", sans-serif;\n}\n"]}

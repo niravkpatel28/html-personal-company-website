@@ -1,0 +1,1 @@
+{"version":3,"sources":["style/00-style.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"00-style.b8d6800f.css","sourceRoot":"..","sourcesContent":["* {\n  box-sizing: border-box;\n  margin: 0px;\n  padding: 0px;\n}\n\nhtml {\n  scroll-behavior: smooth;\n}\nbody {\n  font-family: \"Montserrat\", sans-serif;\n}\n"]}
