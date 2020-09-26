@@ -1,0 +1,29 @@
+{
+  "name": "html-personal-company-website",
+  "version": "1.0.0",
+  "description": "Create a personal website for showcasing products. The website is create purely using html and css ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niravkpatel28/html-personal-company-website.git"
+  },
+  "keywords": [
+    "netlify",
+    "personal",
+    "website"
+  ],
+  "author": "Nirav Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niravkpatel28/html-personal-company-website/issues"
+  },
+  "homepage": "https://github.com/niravkpatel28/html-personal-company-website#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
