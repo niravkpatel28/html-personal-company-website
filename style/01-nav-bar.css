@@ -36,8 +36,9 @@ body {
   font-size: 1.5rem;
   border: 3px solid #d4d4dc;
   /* logo option 1 */
-  border-top-left-radius: 40%;
-  border-bottom-right-radius: 40%;
+  /* improved using animation */
+  /* border-top-left-radius: 40%;
+  border-bottom-right-radius: 40%; */
 
   /* logo option 2 */
   /* border-bottom-left-radius: 40%;
@@ -48,6 +49,31 @@ body {
   margin-left: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
+  animation-name: animate-logo;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+/* animating logo for visual effects */
+@keyframes animate-logo {
+  25% {
+    /* border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%; */
+    /* alternate way of specifying border */
+    border-radius: 10% 0 10% 0;
+  }
+  50% {
+    border-radius: 20% 0 20% 0;
+  }
+  75% {
+    border-radius: 30% 0 30% 0;
+  }
+  100% {
+    /* border-top-left-radius: 40%;
+        border-bottom-right-radius: 40%; */
+    border-radius: 40% 0 40% 0;
+  }
 }
 
 .logo a {
