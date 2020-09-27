@@ -28,6 +28,9 @@
   padding: 0px;
 }
 
+.banner-subtext {
+  font-size: 3vw;
+}
 /* about us  */
 #about-us {
   height: 50vh;
