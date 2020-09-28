@@ -23,14 +23,12 @@ body {
 
 .navigation {
   display: flex;
+  /* display: none; */
   justify-content: space-between;
   align-items: center;
   height: 100%;
 }
 
-/* .nav-items {
-  display: inline;
-} */
 .logo {
   padding: 10px;
   font-size: 1.5rem;
@@ -98,4 +96,8 @@ body {
   color: #feda6a;
   font-weight: bold;
   border-radius: 10px;
+}
+/* hiding mobile nav */
+.mobile-navigation {
+  display: none;
 }

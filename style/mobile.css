@@ -12,6 +12,14 @@
   flex-direction: column;
 }
 
+/* hiding nav-content for hamburger menu */
+/* .navigation {
+  height: 2vh;
+} */
+.navigation .nav-content {
+  display: none;
+}
+/* ------------------------- */
 .nav-links {
   padding-top: 10px;
   width: 100%;
